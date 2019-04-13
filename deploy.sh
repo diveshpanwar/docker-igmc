@@ -54,6 +54,7 @@ if [ "$proceed" == "y" ]; then
 	echo "=========================================="
 	echo "Copying War generated to wars folder"
 	echo "=========================================="
+	rm -rf wars
 	mkdir wars
 	cp -a /targets/*.war /wars/
 	echo ""
