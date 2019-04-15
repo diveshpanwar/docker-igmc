@@ -56,7 +56,7 @@ if [ "$proceed" == "y" ]; then
 	echo "=========================================="
 	rm -rf wars
 	mkdir wars
-	cp -a /targets/*.war /wars/
+	cp -a /target/*.war /wars/
 	echo ""
 	echo ""
 	echo "=========================================="
