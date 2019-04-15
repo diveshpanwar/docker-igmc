@@ -9,7 +9,7 @@ if [ "$proceed" == "y" ]; then
 	echo "=========================================="
 	echo "Switching to ngApp Directory"
 	echo "=========================================="
-	cd src/main/webApps/ngapp/
+	cd src/main/webapp/ngapp/
 	echo "=========================================="
 	echo "Running NPM install"
 	echo "=========================================="
